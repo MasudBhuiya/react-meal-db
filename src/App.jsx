@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
   const [meal, setMeal] = useState('')
   const handleFood = (meal) =>{
-    setMeal(meal)
+    setMeal(p=>[...p, meal,', ' ])
   }
 
   return (
