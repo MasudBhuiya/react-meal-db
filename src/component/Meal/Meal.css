@@ -6,6 +6,7 @@
     border: 2px solid gray;
     position: relative;
     border-radius: 7px;
+    background-color: antiquewhite;
 }
 .meal img{
     align-items: center;

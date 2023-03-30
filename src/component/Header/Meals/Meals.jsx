@@ -19,8 +19,9 @@ const Meals = ({ handleFood, meal }) => {
             }
             
             </div>
-            <div>
-            <h2>Selected Foods</h2>
+            <div className='side-container'>
+            <h2 className='side-header'>Selected Foods</h2>
+            <hr></hr>
             <h2>Name: {meal}</h2>
 
             </div>
