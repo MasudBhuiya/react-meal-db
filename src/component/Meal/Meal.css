@@ -1,0 +1,21 @@
+.meal{
+    padding: 14px;
+    margin: 5px;
+    width: 300px;
+    height: 410px;
+    border: 2px solid gray;
+    position: relative;
+    border-radius: 7px;
+}
+.meal img{
+    align-items: center;
+    width: 75%;
+    margin:0;
+}
+.btn-meal{
+    color: white;
+    background-color: rgb(241, 82, 82);
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
